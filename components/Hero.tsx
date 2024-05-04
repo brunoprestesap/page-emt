@@ -17,11 +17,11 @@ const Hero = () => {
           ajudando a restaurar o equilíbrio químico e melhorar o humor.
         </p>
       </div>
-      <div>
+      <div className="flex justify-center items-center">
         <Image
           src={bgHero}
           alt="Dra. Camila"
-          className="w-36 h-56 lg:w-[300px] lg:h-[450px]"
+          className="w-44 h-64 lg:w-[300px] lg:h-[450px]"
         />
       </div>
     </section>
