@@ -3,18 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Button from "./Button";
+import logo from "/public/amparo-logo.webp";
 
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image
-          src="/amparo-logo.webp"
+          src={logo}
           alt="logo"
-          width="0"
-          height="0"
-          sizes="100vh"
-          className="w-28 h-16 lg:w-48 lg:h-28"
+          className="w-24 h-12 lg:w-32 lg:h-20"
           priority
         />
         {/* <h1 className='text-gray-50 bold-20 cursor-pointer'>Instituto Amparo</h1> */}
