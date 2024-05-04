@@ -17,6 +17,13 @@ const Hero = () => {
           ajudando a restaurar o equilíbrio químico e melhorar o humor.
         </p>
       </div>
+      <div>
+        <Image
+          src={bgHero}
+          alt="Dra. Camila"
+          className="absolute right-[5px] bottom-1 sm:bottom-[30px] w-36 h-56 sm:w-[300px] sm:h-[450px]"
+        />
+      </div>
     </section>
   );
 };
